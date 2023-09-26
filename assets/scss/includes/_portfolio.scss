@@ -1,0 +1,13 @@
+.portfolio-headersection{
+    background-image: url(/public/images/portfolio\ img8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include media-min-md{
+        height: 65vh;
+    }
+}
+
+.portfoliomain-section{
+    font-family: $font-var;
+}

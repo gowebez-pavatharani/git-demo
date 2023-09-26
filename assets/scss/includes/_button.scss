@@ -1,0 +1,19 @@
+.banner-btn{
+    font-family: $font-var;
+}
+.send-bttn{
+    background-color: red;
+}
+.briefbttn{
+    background-color: #ff0000;
+}
+
+.packagebttn{
+    background-color: $color-fill;
+    font-weight: 100;
+}
+.portfolio-btns{
+    &:hover{
+        background-color: $color-fill;
+    }
+}

@@ -1,0 +1,47 @@
+.aboutheader{
+    background-image: url(/public/images/section\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+     @include media-min-md{
+         height:65vh;
+    }
+}
+.aboutmain1section{
+    background-image: url(/public/images/Teams\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: $font-var;
+}
+.aboutmain2section{
+    font-family: $font-var;
+    .aboutus-img{
+        @include media-min-md{
+            margin-left:-200px ;
+            margin-top: 100px;
+            height:80%;
+            
+        }
+    }
+}
+.aboutmain3section{
+    background-image: url(/public/images/section\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    // background-position: center;
+    font-family: $font-var;
+}
+.aboutmain4section{
+    font-family: $font-var;
+    .ourteam{
+        .team-header{
+            font-weight: 900;
+            
+        }
+    }
+    .carousel-control-prev, .carousel-control-next{
+         color:#000000;
+        //  background-color: #fff;
+    }
+}

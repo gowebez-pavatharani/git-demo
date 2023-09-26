@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bs1{
+    @include media-min-md{
+        border-left: 2px solid;
+    }
+}
+
+.bs2{
+    @include media-min-md{
+        border-bottom: 2px solid;
+    }
+}
+.br50{
+    border-radius: 70%;
+}
+.ltsp1{
+    letter-spacing: 1px;
+}
+.ltsp2{
+    letter-spacing: 2px;
+}
+.ltsp3{
+    letter-spacing: 3px;
+}
+.ltsp4{
+    letter-spacing: 4px;
+}
+.wsp1{
+    word-spacing: 1px;
+}
+.wsp2{
+    word-spacing: 2px;
+}
+.wsp3{
+    word-spacing: 3px;
+}
+.txt-jus{
+    text-align: justify;
+ }
+.pstn{
+    //  bottom:70%;
+    @include media-min-md{
+        top:95%;
+    }
+    
+    
+}
+.style
+{
+    @include media-min-md{
+        right:40%;
+    }
+}
+.para{
+    @include media-min-md{
+    height:71%;
+    width:50%;
+    left:30%;
+    top:110%;
+   }
+   @include media-min-lg{
+    height:71%;
+    width:50%;
+    left:30%;
+    top:110%;
+   }
+   
+}
+
+
+.bgabt{
+    background-color:$color-bgabt;
+}
+.abtus{
+    color:$color-abtus;
+}
+.text{
+    color:$color-text;
+}
+.pric{
+    color:$color-pricing;
+}
+.colorcol{
+    color:$color-col;
+}
+.colortime{
+    color:$color-logos;
+}
+.colorform{
+    color:$color-form;
+}
+
+.lht{
+    line-height: 2.5rem;
+}
+.border-dotted{
+    border-bottom: 2px dotted $color-pricing !important;
+}
+.border-dotted1{
+    border-bottom: 2px dotted $color-pricing !important;
+    width:150% !important;
+}
+.border-dotted2{
+    border-bottom: 2px dotted black;
+}
+.btop{
+    border-top: 2px solid #ffffff;
+}
+.col{
+     
+    
+    @include media-min-md{
+        top:220%;
+        left:40%;
+        height:80%;
+    }
+    
+}
+.img1{
+    width:100px;
+    height:100px;
+}
+.img2{
+    width:150px;
+    height:150px; 
+}
+.bgclr{
+    background-color: rgb(225,225,225,0.3);
+}
+.jonue{
+    @include media-min-md{
+        margin-top: -100px;
+    }
+}
+.bb{
+    text-decoration:2px dotted;
+    
+}
+.area{
+    width:100%;
+    height:100%;
+}
+.aboutbgcolor{
+    background-color: $color-aboutbg;
+}
+.abouttxtcolor{
+    color:$color-abouttxt;
+}
+.offcanvas{
+    
+     background-color: rgba($color: $color-navbar, $alpha: 0.7) !important;
+}
+
+.portimg{
+    height:85%;
+}
+.border-top{
+    border-top:2px solid;
+    
+}
+.servicecontent{
+    background-color: $color-fill;
+    border-radius: 50%;
+}
+.border-right{
+    border-right: 2px solid;
+}
+.rotate-txt{
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+    letter-spacing: 15px;
+}
+.services-img1{
+    @include media-min-md{
+        margin-left:-150px ;
+            margin-top: 60px;
+        height:68vh;
+        width:100%;
+    }
+ }
+.services-img2{
+    @include media-min-md{
+        margin-left:-700px;
+        margin-top: 350px;
+        height:30vh;
+    }
+}
+.package-select{
+    color:$color-cardcheck;
+}
+
+.img-container{
+    position: relative;
+    .positioning{
+        position: absolute;
+        bottom: 1.5rem;
+        left: 8px;
+    }
+}
+.paraabsolute{
+    @include media-min-md{
+        position: absolute;
+        top:-400px;
+        left:460px;
+        text-align: justify;
+    }
+}
+.round-orange{
+    background-color: red;
+    border-radius: 50%;
+}
+.jonue-kiran{
+    background-color: rgba($color: #fff, $alpha: .3);
+    @include media-min-lg{
+        position: relative;
+    }
+   
+    p{
+        text-align: justify;
+    }
+    h4{
+        @include media-min-md{
+            position: absolute;
+            right: 150px;
+            top: 240px;
+        }
+        @include media-min-md{
+            position: absolute;
+            right: 160px;
+            top: 250px;
+        }
+        @include media-min-md{
+            position: absolute;
+            right: 195px;
+            top: 225px;
+        }
+    }
+    img{
+        border-radius: 50%;
+        height: 120px;
+        width: 120px;
+    }
+}
+.about{
+    .aboutus-position{
+        @include media-min-lg{
+            position: absolute;
+            top:785px;
+            right:50px;
+        }
+        @media (min-width:1440px){
+            font-size: 18px;
+            line-height: 32px;
+            top:912px;
+            right:190px;
+        }
+        @media (min-width:1490px){
+            line-height: 38px;
+            top:900px;
+            right:200px;
+        }
+    }
+}
+.map-fontcolor{
+color:#5f03e9;
+}
+.fs-row{
+    font-size: 19px;
+    font-weight: 300;
+}
+.pricing-fontcolor{
+    color:$color-bgabt;
+}

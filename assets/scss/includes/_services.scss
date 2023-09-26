@@ -1,0 +1,67 @@
+.services-headersection{
+    background-image: url(/public/images/service\ section\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include media-min-md{
+        height:65vh;
+    }
+}
+.servicesmain1section{
+    font-family: $font-var;
+    @include media-min-lg{
+        position: relative;
+    }
+    @include media-min-lg{
+        background: linear-gradient(
+            to right,
+            #ececec 0%,
+            #ececec 55%,
+            black 55%,
+            black 100%
+        );
+    }
+    .image1{
+        @include media-min-lg{
+            height: 74.5%;
+            width: 45%;
+            position: absolute;
+            top: 13%;
+            right: 7.3%;
+        }
+    }
+    .image2{
+        @include media-min-lg{
+            height: 35%;
+            width: 25%;
+            position: absolute;
+            bottom: 15%;
+            right: 30%;
+        }
+    }
+}
+.servicesmain2section{
+    font-family: $font-var;
+    background-color: $color-servicesbg;
+    .serviceimg{
+        border-radius: 50%;
+        height:80%;
+        width:120%;
+    }
+    .servicecontent{
+        background-color: $color-fill;
+        border-radius: 50%;
+    }
+}
+.servicesmain3section{
+    background-image: url(/public/images/service\ section\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: $font-var;
+    span{
+        background-color: $color-fill;
+        border-radius: 50%;
+    }
+    .border-line{
+        border-bottom: 2px solid;
+    }
+}

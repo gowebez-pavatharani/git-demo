@@ -1,0 +1,54 @@
+.pricing-headersection{
+    background-image: url(/public/images/pricing\ section\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include media-min-md{
+        height: 65vh;
+    }
+}
+
+.pricing-section1{
+    background-image: url(/public/images/pricing\ bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: $font-var;
+    .pricing-packages{
+        background-image: url(/public/images/pricing\ section\ 2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color:$color-aboutbg;
+    }
+    .border-black1{
+        border-top:2px solid;
+        width: 40%;
+    }
+    .border-black2{
+        border-top:2px solid;
+        width: 55%;
+    }
+    
+}
+.pricing-section2{
+    background-image: url(/public/images/pricing\ section\ 3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: $font-var;
+    @include media-min-md{
+        height:98vh;
+    }
+}
+.Pricing-section3{
+    font-family: $font-var;
+    .package-card{
+        background-color: $color-cardbg;
+    .bordertop{
+        border-top: 2px solid #808080;
+    }
+        
+    }
+}
+
+

@@ -1,0 +1,19 @@
+.contact-headersection{
+    background-image: url(/public/images/contact\ img\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include media-min-md{
+        height:65vh;
+    }
+}
+
+.contact-section1{
+    font-family: $font-var;
+}
+.contact-section2{
+     font-family: $font-var;
+    background-image: url(/public/images/contact\ img\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
